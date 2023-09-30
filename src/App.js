@@ -31,7 +31,7 @@ function App() {
       <Header />
       <ul id="concepts">
         <ConceptItem {...concepts[0]}/>
-        <ConceptItem {...concepts[1]}/>
+        <ConceptItem image={concepts[1].image} title={concepts[1].title} description={concepts[1].description}/>
         <ConceptItem {...concepts[2]}/>
       </ul>
     </div>
